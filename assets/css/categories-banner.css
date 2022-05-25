@@ -1,0 +1,92 @@
+.categories-banner__wrapper{
+    box-sizing: border-box;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+        "earphone wear-gadget laptop laptop"
+        "game game 3d-devices speakers";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    height: 100vh;
+}
+
+.categories-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.categories-banner__1a{
+    background-image: linear-gradient(to bottom right, #000, #353535);
+    border-radius: 30px;
+    grid-area: earphone;
+}
+
+.categories-banner__1b{
+    background-image: linear-gradient(to bottom left, #ecb708, #ebc340);
+    border-radius: 30px;
+    grid-area: wear-gadget;
+}
+
+.categories-banner__1c{
+    background-image: linear-gradient(to right, #dd0404, #e25a5a);
+    border-radius: 30px;
+    grid-area: laptop;
+}
+
+.categories-banner__2a{
+    background-image: linear-gradient(to bottom right, #cac9c9, #fdfbfb);
+    border-radius: 30px;
+    grid-area: game;
+}
+
+.categories-banner__2b{
+    background-image: linear-gradient(to bottom right, #0aeb67, #3ee785);
+    border-radius: 30px;
+    grid-area: 3d-devices;
+}
+
+.categories-banner__2c{
+    background-image: linear-gradient(to bottom right, #0a73ec, #599ce9);
+    border-radius: 30px;
+    grid-area: speakers;
+}
+
+.categories-banner__description--wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    margin-bottom: 1rem;
+}
+
+.categories-banner__title--main{
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+    opacity: .7;
+    text-transform: uppercase;
+}
+
+.categories-banner__title--second{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.categories-banner__title--third{
+    color: #FFF;
+}
+
+.categories-banner__button{
+    background-color: var(--color-red);
+    border-radius: 30px;
+    color: #FFF;
+    font-size: .75rem;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 90px;
+}
