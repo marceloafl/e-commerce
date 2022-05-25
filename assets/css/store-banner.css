@@ -1,0 +1,47 @@
+.store-banner__wrapper{
+    height: 120px;
+    margin-bottom: 1.5rem;
+}
+
+.store-banner__list{
+    align-items: center;
+    display: flex;
+    height: inherit;
+    justify-content: space-around;
+}
+
+.store-banner__item{
+    align-items: center;
+    display: flex;
+}
+
+.store-banner__img-icon{
+    color: var(--color-red);
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+.store-banner__img--shipping::before{
+    content: '\e558';
+}
+
+.store-banner__img--safeness::before{
+    content: '\e897';
+}
+
+.store-banner__img--payment::before{
+    content: '\ef63';
+}
+
+.store-banner__img--doubts::before{
+    content: '\e94c';
+}
+
+.store-banner__description-title{
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.store-banner__description{
+    color: var(--color-grey);
+}

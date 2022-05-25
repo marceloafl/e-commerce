@@ -6,8 +6,9 @@
         "earphone wear-gadget laptop laptop"
         "game game 3d-devices speakers";
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 1fr 1fr;
     height: 100vh;
+    margin-bottom: 1.5rem;
 }
 
 .categories-banner{
@@ -69,8 +70,22 @@
     text-transform: uppercase;
 }
 
+.categories-banner__title--main-second{
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 700;
+    opacity: .7;
+    text-transform: uppercase;
+}
+
 .categories-banner__title--second{
     color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.categories-banner__title--second-second{
+    color: #000;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -80,13 +95,26 @@
 }
 
 .categories-banner__button{
-    background-color: var(--color-red);
+    background-color: #FFF;
     border-radius: 30px;
-    color: #FFF;
-    font-size: .75rem;
+    color: var(--color-red);
+    font-size: .8rem;
     display: block;
     height: 36px;
     line-height: 36px;
     text-align: center;
     width: 90px;
+}
+
+.categories-banner__button--second{    
+    background-color: var(--color-red);
+    border-radius: 30px;
+    color: #FFF;
+    font-size: .8rem;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 90px;
+
 }
