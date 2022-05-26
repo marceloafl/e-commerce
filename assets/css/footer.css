@@ -1,0 +1,133 @@
+.footer{
+    background-color: var(--color-light-grey);
+    box-sizing: border-box;
+    display: flex;
+    padding: 5rem 2rem;
+}
+
+.footer__about--wrapper{
+    padding: 0 1.5rem;
+    width: calc(100% / 5);
+
+    /*background-color: green;*/
+}
+
+.footer__logo--title{
+    color: var(--color-red);
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.footer__logo--title-span{
+    color: var(--color-grey);
+}
+
+.footer__social--description{
+    margin-bottom: 3rem;
+}
+
+.footer__social--list{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.social__link{
+    height: 16px;
+}
+
+.footer__social--link-instagram{
+    content: url(../images/icons/instagram.svg);
+}
+
+.footer__social--link-linkedin{
+    content: url(../images/icons/linkedin.svg);
+}
+
+.footer__social--link-facebook{
+    content: url(../images/icons/facebook.svg);
+}
+
+.footer__social--link-twitter{
+    content: url(../images/icons/twitter.svg);
+}
+
+.footer__services--wrapper{
+    padding: 0 1rem;
+    width: calc(100% / 5);
+
+    /*background-color: yellow;*/
+}
+
+.footer__title{
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.footer__services--list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__services--item{
+    margin-bottom: .75rem;
+}
+
+.footer__services--item:hover{
+    color: var(--color-red);
+}
+
+.footer__contact--wrapper{
+    padding: 0 1.5rem;
+    width: calc(100% / 5);
+
+    /*background-color: blue;*/
+}
+
+.footer__contact--item{
+    margin-bottom: .4rem;
+}
+
+.footer__newsletter--wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    width: calc(100% / 2.5);
+}
+
+.footer__newsletter--description{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.footer__newsletter--input-wrapper{
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 25px;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer__newsletter--input{
+    height: 80%;
+    width: 60%;
+}
+
+.footer__newsletter--input:focus{
+    outline: none;
+}
+
+.footer__newsletter--button{
+    background-color: var(--color-red);
+    border-radius: 25px;
+    color: #FFF;
+    cursor: pointer;
+    height: 80%;
+    width: 30%;
+
+}
