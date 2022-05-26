@@ -64,8 +64,9 @@
 
 .main-banner__img{
     position: absolute;
-    right: 25%;
+    right: 30%;
     transform: rotate(15deg);
+    transform: scaleX(-1);
     top: 5%;
     width: 360px;
 }

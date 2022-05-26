@@ -3,8 +3,8 @@
     display: grid;
     gap: 1.5rem;
     grid-template-areas:
-        "earphone wear-gadget laptop laptop"
-        "game game 3d-devices speakers";
+        "a1 a2 a3 a3"
+        "b1 b1 b2 b3";
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 100vh;
@@ -18,40 +18,40 @@
     padding: 2rem;
 }
 
-.categories-banner__1a{
+.categories-banner__a1{
     background-image: linear-gradient(to bottom right, #000, #353535);
     border-radius: 30px;
-    grid-area: earphone;
+    grid-area: a1;
 }
 
-.categories-banner__1b{
+.categories-banner__a2{
     background-image: linear-gradient(to bottom left, #ecb708, #ebc340);
     border-radius: 30px;
-    grid-area: wear-gadget;
+    grid-area: a2;
 }
 
-.categories-banner__1c{
+.categories-banner__a3{
     background-image: linear-gradient(to right, #dd0404, #e25a5a);
     border-radius: 30px;
-    grid-area: laptop;
+    grid-area: a3;
 }
 
-.categories-banner__2a{
+.categories-banner__b1{
     background-image: linear-gradient(to bottom right, #cac9c9, #fdfbfb);
     border-radius: 30px;
-    grid-area: game;
+    grid-area: b1;
 }
 
-.categories-banner__2b{
+.categories-banner__b2{
     background-image: linear-gradient(to bottom right, #0aeb67, #3ee785);
     border-radius: 30px;
-    grid-area: 3d-devices;
+    grid-area: b2;
 }
 
-.categories-banner__2c{
+.categories-banner__b3{
     background-image: linear-gradient(to bottom right, #0a73ec, #599ce9);
     border-radius: 30px;
-    grid-area: speakers;
+    grid-area: b3;
 }
 
 .categories-banner__description--wrapper{
@@ -64,7 +64,7 @@
 
 .categories-banner__title--main{
     color: #FFF;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     opacity: .7;
     text-transform: uppercase;
@@ -92,6 +92,24 @@
 
 .categories-banner__title--third{
     color: #FFF;
+}
+
+.categories-banner__img{
+    height: 30%;
+    position: absolute;
+    transform: translate(108px, -64px);
+}
+
+.categories-banner__img--double-a3{
+    height: 30%;
+    position: absolute;
+    transform: translate(100%, -15%);
+}
+
+.categories-banner__img--double-b1{
+    height: 30%;
+    position: absolute;
+    transform: translate(420px, -15%);
 }
 
 .categories-banner__button{

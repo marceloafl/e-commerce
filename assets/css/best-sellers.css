@@ -1,0 +1,49 @@
+.best-sellers-banner__wrapper{
+}
+
+.best-sellers-banner__title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.best-sellers-banner__title-second{
+    color: var(--color-grey);
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.best-sellers__products-list--wrapper{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 3rem;
+}
+
+.best-sellers__product-wrapper{
+    height: 300px;
+}
+
+.best-sellers__product-img--wrapper{
+    align-items: center;
+    background-color: var(--color-light-grey);
+    border-radius: 25px;
+    display: flex;
+    height: 75%;
+    justify-content: center;
+    width: 100%;
+}
+
+.best-sellers__product-img{
+    height: 75%;
+}
+
+.best-sellers__product-title{
+    margin: 1rem 0;
+}
+
+.best-sellers__product-price{
+    font-weight: 700;
+}

@@ -1,0 +1,94 @@
+.sale-banner__wrapper{
+    height: 100vh;
+}
+
+.sale-banner__content--wrapper-a{
+    background-color: var(--color-red);
+    border-radius: 20px;
+    display: flex;
+    height: 40%;
+    opacity: .95;
+    padding: 2rem;
+    position: relative;
+    top: 30%;
+}
+
+.sale-banner__title-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.sale-banner-banner__title--main{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sale-banner__title--second{
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.sale-banner__title--third{
+    color: #FFF;
+}
+
+.sale-banner__description-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.sale-banner__description--main{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.sale-banner__description--second{
+    color: #FFF;
+}
+
+.sale-banner__description--third{
+    color: #FFF;
+}
+
+.sale-banner__button{
+    background-color: #FFF;
+    border-radius: 30px;
+    color: var(--color-red);
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 2rem;
+    text-align: center;
+    width: 120px;
+}
+
+.sale-banner__img--a{
+    position: absolute;
+    height: 420px;
+    transform: translate(360px, -240px);    
+}
+
+.sale-banner__img--b{
+    position: absolute;
+    height: 420px;
+    transform: translate(360px, -240px);    
+}
+
+.sale-banner__content--wrapper-b{
+    background-color: var(--color-green);
+    border-radius: 20px;
+    display: flex;
+    height: 40%;
+    opacity: .95;
+    padding: 2rem;
+    position: relative;
+    top: 30%;
+}
