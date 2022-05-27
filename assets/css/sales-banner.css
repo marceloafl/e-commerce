@@ -1,5 +1,5 @@
 .sale-banner__wrapper{
-    height: 100vh;
+    height: 75vh;
 }
 
 .sale-banner__content--wrapper-a{
@@ -8,12 +8,12 @@
     box-sizing: border-box;
     border-radius: 20px;
     display: flex;
-    height: 40%;
+    height: 60%;
     justify-content: space-around;
     opacity: .95;
     padding: 2rem;
     position: relative;
-    top: 20%;
+    top: 10%;
 }
 
 .sale-banner__content--wrapper-b{
@@ -22,12 +22,12 @@
     box-sizing: border-box;
     border-radius: 20px;
     display: flex;
-    height: 40%;
+    height: 60%;
     justify-content: space-around;
     opacity: .95;
     padding: 2rem;
     position: relative;
-    top: 30%;
+    top: 10%;
 }
 
 .sale-banner__title-wrapper{

@@ -55,4 +55,8 @@
     .store-banner__item{
         width: calc(100% / 2);
     }
+
+    .store-banner__img-icon{
+        margin-right: .5rem;
+    }
 }

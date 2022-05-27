@@ -25,7 +25,8 @@
 }
 
 .main-banner__title--second{
-    font-size: 4.5rem;
+    /*font-size: 4.5rem;*/
+    font-size: 5vw;
     font-weight: 700;
 }
 
