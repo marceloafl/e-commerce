@@ -47,3 +47,13 @@
 .best-sellers__product-price{
     font-weight: 700;
 }
+
+@media screen and (max-width: 1024px){
+    .best-sellers__products-list--wrapper{
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 3rem;
+    }
+}

@@ -13,6 +13,7 @@
 .store-banner__item{
     align-items: center;
     display: flex;
+    width: calc(100% / 4);
 }
 
 .store-banner__img-icon{
@@ -44,4 +45,14 @@
 
 .store-banner__description{
     color: var(--color-grey);
+}
+
+@media screen and (max-width: 768px){
+    .store-banner__list{
+        flex-wrap: wrap;
+    }
+
+    .store-banner__item{
+        width: calc(100% / 2);
+    }
 }

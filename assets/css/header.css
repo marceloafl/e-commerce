@@ -93,3 +93,22 @@
 .menu-account__item--link-cart::before{
     content: '\f1cc';
 }
+
+.header__menu-icon--wrapper{
+    display: none;
+}
+
+.header__menu-icon--wrapper::before{
+    content: '\e5d2';
+}
+
+@media screen and (max-width: 768px){
+    .header__menu-nav--wrapper{
+        display: none;
+    }
+
+    .header__menu-icon--wrapper{
+        cursor: pointer;
+        display: flex;
+    }
+}

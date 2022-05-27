@@ -1,4 +1,5 @@
 .categories-carousel__wrapper{
+    box-sizing: border-box;
     margin-bottom: 5rem;
 }
 
@@ -18,12 +19,15 @@
 
 .categories-carousel__list{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 
 .categories-carousel__item-wrapper{
     box-sizing: border-box;
-    margin: 0 2.5rem;
-    width: calc(100% / 6);
+    margin: 1rem 2.5rem;
+    width: calc(100% / 10);
 }
 
 .categories-carousel__item-link{
@@ -32,15 +36,8 @@
     flex-direction: column;
 }
 
-.categories-carousel__item--img-wrapper{
-    /*align-items: center;
-    border-radius: 50%;
-    display: flex;
-    font-size: 2.5rem;
-    height: 90px;
-    justify-content: center;
-    margin-bottom: 1rem;
-    width: 90px;*/
+.categories-carousel__item--title{
+    text-align: center;
 }
 
 .categories__img-a::before{

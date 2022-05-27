@@ -3,10 +3,27 @@
 }
 
 .sale-banner__content--wrapper-a{
+    align-items: center;
     background-color: var(--color-red);
+    box-sizing: border-box;
     border-radius: 20px;
     display: flex;
     height: 40%;
+    justify-content: space-around;
+    opacity: .95;
+    padding: 2rem;
+    position: relative;
+    top: 20%;
+}
+
+.sale-banner__content--wrapper-b{
+    align-items: center;
+    background-color: var(--color-green);
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    height: 40%;
+    justify-content: space-around;
     opacity: .95;
     padding: 2rem;
     position: relative;
@@ -17,12 +34,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
 }
 
 .sale-banner-banner__title--main{
     color: #FFF;
-    font-size: 4rem;
+    font-size: 5vw;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -33,28 +49,6 @@
 }
 
 .sale-banner__title--third{
-    color: #FFF;
-}
-
-.sale-banner__description-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40%;
-}
-
-.sale-banner__description--main{
-    color: #FFF;
-    font-size: 3rem;
-    font-weight: 700;
-    margin: 1rem 0;
-}
-
-.sale-banner__description--second{
-    color: #FFF;
-}
-
-.sale-banner__description--third{
     color: #FFF;
 }
 
@@ -71,24 +65,79 @@
 }
 
 .sale-banner__img--a{
-    position: absolute;
-    height: 420px;
-    transform: translate(360px, -240px);    
+    height: 30vw;
+    transform: translateY(-60px);    
+    margin: auto;
 }
 
 .sale-banner__img--b{
-    position: absolute;
-    height: 420px;
-    transform: translate(360px, -240px);    
+    height: 30vw;
+    transform: translateY(-60px);
+    margin: auto;
 }
 
-.sale-banner__content--wrapper-b{
-    background-color: var(--color-green);
-    border-radius: 20px;
+.sale-banner__description-wrapper{
     display: flex;
-    height: 40%;
-    opacity: .95;
-    padding: 2rem;
-    position: relative;
-    top: 30%;
+    flex-direction: column;
+    justify-content: center;
+
 }
+
+.sale-banner__description--main{
+    color: #FFF;
+    font-size: 3vw;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.sale-banner__description--second{
+    color: #FFF;
+}
+
+.sale-banner__description--third{
+    color: #FFF;
+}
+
+
+@media screen and (max-width: 768px){
+    .sale-banner__title-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 1.5rem;
+    }
+    
+    .sale-banner__button{
+        width: 180px;
+    }
+    
+    .sale-banner__img--a{
+        height: 35vw;
+        transform: translateY(-160px);    
+        margin: auto;
+        position: absolute;
+    }
+    
+    .sale-banner__img--b{
+        height: 35vw;
+        transform: translateY(-160px);
+        margin: auto;
+        position: absolute;
+    }
+    
+    .sale-banner__description--main{
+        color: #FFF;
+        font-size: 3vw;
+        font-weight: 700;
+        margin: 1rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+
