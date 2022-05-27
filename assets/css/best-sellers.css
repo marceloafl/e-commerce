@@ -1,7 +1,9 @@
 .best-sellers-banner__wrapper{
+    margin-bottom: 5rem;
 }
 
 .best-sellers-banner__title{
+    box-sizing: border-box;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -15,11 +17,13 @@
 }
 
 .best-sellers__products-list--wrapper{
+    box-sizing: border-box;
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 3rem;
+    width: 100%;
 }
 
 .best-sellers__product-wrapper{
@@ -49,11 +53,40 @@
 }
 
 @media screen and (max-width: 1024px){
+    .best-sellers-banner__wrapper{
+        margin-bottom: 2.5rem;
+    }
+
     .best-sellers__products-list--wrapper{
         display: grid;
-        gap: 2rem;
-        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        grid-template-columns: calc(50% - .25rem) calc(50% - .25rem);
         grid-template-rows: 1fr 1fr 1fr 1fr;
         margin-top: 3rem;
+        width: 100%;
+    }
+
+    .best-sellers__product-wrapper{
+        width: 100%;
+    }
+
+    .best-sellers__product-wrapper--link{
+        width: inherit;
+    }
+
+    .best-sellers__product-img--wrapper{
+        width: inherit;
+    }
+
+    .best-sellers__product-img{
+        height: auto;
+        width: 180px; 
+    }
+}
+
+@media screen and (max-width: 420px){
+    .best-sellers__product-img{
+        height: auto;
+        width: 120px; 
     }
 }

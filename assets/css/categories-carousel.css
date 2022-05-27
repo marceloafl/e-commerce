@@ -40,12 +40,11 @@
     text-align: center;
 }
 
-.categories__img-a::before{
-    content: '\ebcc';
-
+.categories__img-a::before{    
     align-items: center;
     background-color: var(--color-blue);
     border-radius: 50%;
+    content: '\ebcc';
     display: flex;
     font-size: 2.5rem;
     height: 90px;
@@ -55,11 +54,10 @@
 }
 
 .categories__img-b::before{
-    content: '\f19e';
-
     align-items: center;
     background-color: var(--color-pink);
     border-radius: 50%;
+    content: '\f19e';
     display: flex;
     font-size: 2.5rem;
     height: 90px;
@@ -69,10 +67,9 @@
 }
 
 .categories__img-c::before{
-    content: '\ea28';
-
     align-items: center;
     background-color: var(--color-yellow);
+    content: '\ea28';
     border-radius: 50%;
     display: flex;
     font-size: 2.5rem;
@@ -83,11 +80,10 @@
 }
 
 .categories__img-d::before{
-    content: '\e323';
-
     align-items: center;
     background-color: var(--color-green);
     border-radius: 50%;
+    content: '\e323';
     display: flex;
     font-size: 2.5rem;
     height: 90px;
@@ -97,11 +93,10 @@
 }
 
 .categories__img-e::before{
-    content: '\e552';
-
     align-items: center;
     background-color: var(--color-red);
     border-radius: 50%;
+    content: '\e552';
     display: flex;
     font-size: 2.5rem;
     height: 90px;
@@ -112,7 +107,6 @@
 
 .categories__img-f::before{
     content: '\efed';
-
     align-items: center;
     background-color: var(--color-purple);
     border-radius: 50%;

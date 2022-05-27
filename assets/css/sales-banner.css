@@ -1,5 +1,6 @@
 .sale-banner__wrapper{
     height: 75vh;
+    margin-bottom: 2.5rem;
 }
 
 .sale-banner__content--wrapper-a{
@@ -13,7 +14,7 @@
     opacity: .95;
     padding: 2rem;
     position: relative;
-    top: 10%;
+    top: 20%;
 }
 
 .sale-banner__content--wrapper-b{
@@ -27,7 +28,7 @@
     opacity: .95;
     padding: 2rem;
     position: relative;
-    top: 10%;
+    top: 20%;
 }
 
 .sale-banner__title-wrapper{
@@ -100,6 +101,11 @@
 
 
 @media screen and (max-width: 768px){
+    .sale-banner__wrapper{
+        height: 75vh;
+        margin-bottom: 0rem;
+    }
+
     .sale-banner__title-wrapper{
         display: flex;
         flex-direction: column;
@@ -130,9 +136,46 @@
         font-size: 3vw;
         font-weight: 700;
         margin: 1rem 0;
+        text-align: end;
+    }
+
+    .sale-banner__description--second{
+        text-align: end;
+    }
+
+    .sale-banner__description--third{
+        text-align: end;
     }
 }
 
+@media screen and (max-width: 420px){
+    .sale-banner__wrapper{
+        height: 40vh;
+        margin-bottom: 2.5rem;
+    }
+
+    .sale-banner__content--wrapper-a{
+        height: 60%;
+        padding: 1rem;   
+        top: 25%;       
+    }
+    
+    .sale-banner__content--wrapper-b{
+        height: 60%;
+        padding: 1rem;
+        top: 25%;
+    }
+
+    .sale-banner__img--a{
+        height: 30vw;
+        transform: translateY(-90px);    
+    }
+    
+    .sale-banner__img--b{
+        height: 30vw;
+        transform: translateY(-90px);
+    }
+}
 
 
 

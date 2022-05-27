@@ -35,7 +35,7 @@
 
 .header__menu-nav--wrapper{
     padding: 0 2.5rem;
-    width: 480px;
+    width: auto;
 }
 
 .menu-nav__list{
@@ -47,6 +47,7 @@
 
 .menu-nav__item{
     cursor: pointer;
+    margin-right: 1.5rem;
 }
 
 .menu-nav__item--link{

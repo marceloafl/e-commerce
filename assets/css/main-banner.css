@@ -13,7 +13,7 @@
 .main-banner__title--wrapper{
     display: flex;
     flex-direction: column;
-    height: 70%;
+    height: 50%;
     justify-content: flex-end;
 }
 
@@ -25,8 +25,7 @@
 }
 
 .main-banner__title--second{
-    /*font-size: 4.5rem;*/
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 700;
 }
 
@@ -69,7 +68,7 @@
 
 @media screen and (max-width: 768px){
     .main-banner__wrapper{
-        height: 70vh;
+        height: 50vh;
     }
 
     .main-banner__description--wrapper{

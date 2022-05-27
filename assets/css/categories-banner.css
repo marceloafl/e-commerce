@@ -255,6 +255,26 @@
         justify-content: flex-end;
         margin: 1rem;
     }
+
+    .categories-banner__title--main{
+        text-align: end;
+    }
+    
+    .categories-banner__title--main-second{
+        text-align: end;
+    }
+    
+    .categories-banner__title--second{
+        text-align: end;
+    }
+    
+    .categories-banner__title--second-second{
+        text-align: end;
+    }
+    
+    .categories-banner__title--third{
+        text-align: end;
+    }
     
     .categories-banner__button{
         margin-bottom: 0;
