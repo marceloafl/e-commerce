@@ -231,6 +231,18 @@
         justify-content: space-around;
         height: 30vh;
     }
+
+    .categories-banner__b1{
+        display: none;
+    }
+    
+    .categories-banner__b2{
+        display: none;
+    }
+    
+    .categories-banner__b3{
+        display: none;
+    }
     
     .categories-banner__img{
         height: 140px;

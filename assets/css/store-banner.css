@@ -57,6 +57,7 @@
     }
 
     .store-banner__item{
+        margin-bottom: 1.5rem;
         width: calc(100% / 2);
     }
 

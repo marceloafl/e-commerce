@@ -132,15 +132,11 @@
     }
     
     .sale-banner__description--main{
-        color: #FFF;
-        font-size: 3vw;
-        font-weight: 700;
-        margin: 1rem 0;
-        text-align: end;
+        display: none;
     }
 
     .sale-banner__description--second{
-        text-align: end;
+        display: none;
     }
 
     .sale-banner__description--third{
